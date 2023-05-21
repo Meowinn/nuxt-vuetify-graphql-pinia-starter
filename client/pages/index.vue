@@ -1,5 +1,6 @@
 <template>
 	<v-container>
+		<h1>Home test message</h1>
 		<h2>
 			<v-icon icon="mdi-vuetify" />
 			Starter Template
