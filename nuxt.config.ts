@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 		autoImports: true,
 		proxyCookies: true,
 		clients: {
-			default: { httpEndpoint: 'https://spacex-production.up.railway.app/' },
+			default: { httpEndpoint: 'https://beta.pokeapi.co/graphql/v1beta' },
 		},
 	},
 	modules: ['@nuxtjs/apollo', ['@pinia/nuxt', { autoImports: ['defineStore', 'acceptHMRUpdate'] }]],
